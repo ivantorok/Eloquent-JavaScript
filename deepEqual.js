@@ -11,9 +11,7 @@ To find out whether to compare two things by identity (use the === operator for 
 // Your code here.
 
 function deepEqual (objA, objB) {
-	if (typeof objA == "object" && objA != null) {
-		for
-	} else{};
+	if (objA === objB) {return true} else{return false};
 }
 var obj = {here: {is: "an"}, object: 2};
 console.log(deepEqual(obj, obj));
@@ -22,3 +20,11 @@ console.log(deepEqual(obj, {here: 1, object: 2}));
 // → false
 console.log(deepEqual(obj, {here: {is: "an"}, object: 2}));
 // → true
+
+
+/*
+2015-09-28 09:33:21 Budapest Time: As of now it returns 
+true
+false
+false <== this is problematic
+*/
