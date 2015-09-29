@@ -9,20 +9,38 @@ To find out whether to compare two things by identity (use the === operator for 
 */
 
 // Your code here.
-
 function deepEqual (objA, objB) {
-	if (objA === objB) {return true} else{return false};
+    for(var elementInObject in objA){
+        //if (elementInObject == ) {} else{};
+        console.log(elementInObject);
+        console.log(objA[elementInObject]);
+    }
 }
-var obj = {here: {is: "an"}, object: 2};
-console.log(deepEqual(obj, obj));
+​
+​
+function deepEqualB (objA, objB) {
+    if (typeof objA == "object" && objA == null) {} else{return false};
+    //if (objA === objB) {return true} else{return false};
+}
+​var obj = {here: {is: "an"}, object: 2};
+/*console.log(deepEqual(obj, obj));
 // → true
 console.log(deepEqual(obj, {here: 1, object: 2}));
-// → false
+// → false*/
 console.log(deepEqual(obj, {here: {is: "an"}, object: 2}));
 // → true
 
 
 /*
+2015-09-29 09:27:22 Budapest Time: focusing on the hint provided: use for / in.
+Trying to understand what it does and how it does.
+currently for the third call it returns:
+here
+{is: "an"}
+object
+2
+undefined
+
 2015-09-28 09:33:21 Budapest Time: As of now it returns 
 true
 false
