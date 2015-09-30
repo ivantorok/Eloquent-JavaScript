@@ -42,6 +42,7 @@ console.log(deepEqual(obj, {here: {is: "an"}, object: 2}));
 // → true
 
 /*
+2015-09-30 14:12:54 Budapest Time: now just practicing git commit comments with tripple bang signs.
 2015-09-30 14:08:23 Budapest Time: so much struggle because of not reading the first hint attentively enough. At the beginning I only checked if objA but not objB for being an object and not being null. What a waste of time...
 
 2015-09-30 12:15:30 Budapest Time: so this time I am reading the hint line by line:
