@@ -41,7 +41,9 @@ console.log(deepEqual(obj, {here: 1, object: 2}));
 console.log(deepEqual(obj, {here: {is: "an"}, object: 2}));
 // → true
 
-/*2015-09-30 14:14:30 Budapest Time: this one ended with:
+/*2015-09-30 14:17:01 Budapest Time: the solution is to use ' instead of " 
+git commit -m 'comment text'
+2015-09-30 14:14:30 Budapest Time: this one ended with:
 Working. Lesson learned: PAY ATTENTION TO DETAILSgit add deepEqual.js !
 while I just wanted to add three ! marks like this:
 Working. Lesson learned: PAY ATTENTION TO DETAILS!!!
