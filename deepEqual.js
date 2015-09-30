@@ -41,7 +41,10 @@ console.log(deepEqual(obj, {here: 1, object: 2}));
 console.log(deepEqual(obj, {here: {is: "an"}, object: 2}));
 // → true
 
-/*
+/*2015-09-30 14:14:30 Budapest Time: this one ended with:
+Working. Lesson learned: PAY ATTENTION TO DETAILSgit add deepEqual.js !
+while I just wanted to add three ! marks like this:
+Working. Lesson learned: PAY ATTENTION TO DETAILS!!!
 2015-09-30 14:12:54 Budapest Time: now just practicing git commit comments with tripple bang signs.
 2015-09-30 14:08:23 Budapest Time: so much struggle because of not reading the first hint attentively enough. At the beginning I only checked if objA but not objB for being an object and not being null. What a waste of time...
 
